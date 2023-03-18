@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tee{
+    background:#CDA274 ;
+    margin-right: 1rem;
+    color: white !important ;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .4rem;
+    text-decoration: none;
+}
+.shoes{
+    background: #CDA274;
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .4rem;
+    text-decoration: none;
+}
+.but a{
+    color: white;
+}
+
+.font i{
+    padding-left: 1rem;
+}
+.lag img{
+    height: 10vh;
+
+}
+.navbar a{
+    color: #032A45;
+}
+/* navbar ends  */
+/* carousel part begins  */
+.car2{
+    height: 30vh;
+    background: #043040;
+}
+.pimp .card{
+    background: transparent;
+    color: #CDA274;
+    border: none;
+}
+.pimp .card input{
+    background: transparent;
+    border: none;
+}
+.pimp .card a{
+    color: white;
+}
+.happy{
+    /* justify-content: center; */
+    background: #CDA274;
+    padding: 1rem;
+    color: white;
+    width: 90%;
+}
+/* carousel ends  */
+/* content begins  */
+.content{
+    padding-top: 2rem;
+}
+.content1{
+    height: 90vh;
+    max-width: 80%;
+    margin-left: 3rem;
+    
+}
+.content1 .title{
+    text-align: center;
+}
+.con1{
+    height: 50vh;
+    margin-top: 3rem;
+    
+
+}
+.con1 img{
+    height: 60vh;
+    width: 40vw;
+}
+.con2 .card{
+    height: 80vh;
+    margin-left: -3rem;
+    max-width: 90%;
+
+}
+/* content1 ends  */
+/* content2 begins  */
+.content2{
+    background: #F8F8F8;
+    padding-top: 2rem;
+     padding-bottom: 2rem;
+
+}
+.content2 .title{
+    text-align: center;
+}
+.content2 .card{
+    margin-top: 2rem;
+    border: none;
+    position: relative;
+}
+.content2 h1{
+    color: #CDA274;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.content2 span{
+    color: #032A45;
+    margin-right: 1rem;
+}
+.content2 .card-body{
+    position: absolute;
+    top: 8%;
+    /* display: none; */
+    transition: 0.2s ease;
+
+}
+.content2 .card-title{
+    border-bottom: 2px solid #CDA274 ;
+    transform: translateY(170px);
+    /* display: block; */
+    color: white;
+    font-weight: 700;
+    /* transition: 0.5s ease;  */
+}
+.content2 p{
+    /* display: none; */
+    opacity: 0;
+    transform: translateY(170px);
+    color: white;
+    transition: 0.2s ease;
+
+}
+.content2 p:hover{
+    opacity: 5;
+
+}
+.content2 h5:hover{
+    /* transform: translateY(-170); */
+}
+.content2.p:hover{
+    /* display: block; */
+    /* opacity: 5; */
+}
+.content2 .card-body:hover {
+    /* opacity: 0; */
+    transform: translateY(-170px);
+   
+}
+.content2 .bee{
+    text-align: center;
+
+}
+.content2 .bee a{
+background:  #CDA274 ;
+padding: .5rem;
+color: white;
+font-size: medium;
+font-weight: 700;
+text-decoration: none;
+}
+/* content2 ends  */
+/* content3 begins  */
+.content3{
+    background: #1E2529;
+    text-align: center;
+    padding: 3rem;
+}
+.content3 .title{
+    color: #CDA274;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.content3 span{
+    color: white;
+    margin-right: 1rem;
+}
+
+/* content3 carousel begins  */
+.content3 button{
+    border-radius: 20%;
+}
+.content3 .carousel-inner{
+    background: #1E2529;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+.content3 .carousel-inner .carousel-item{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.content3 .carousel-inner .carousel-item .box{
+    background: white;
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    height: 13rem;
+    width: 45%;
+}
+.content3 .carousel-inner .carousel-item .box img{
+    height: 10rem;
+    position: absolute;
+    width: 11rem;
+    left: -1rem;
+}
+.content3 .carousel-inner .carousel-item .carousel-caption{
+    position: absolute;
+    top: 2rem;
+    left: 13rem;
+    text-align: left;
+    right: 1rem;
+    color: black;
+}
+.content3 .carousel-inner .carousel-item .carousel-caption p{
+    margin-top: 1rem;
+}
+/* content3 ends  */
+/* content4 begins  */
+.content4{
+    background: #F8F8F8;
+    text-align: center;
+    /* padding: 2rem; */
+    
+}
+.content4 .title{
+    color:  #032A45;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 1rem;
+}
+.content4 span{
+    color:  #CDA274 ;
+}
+.gold{
+    text-align: center;
+    /* height: 55vh; */
+    font-size: 4rem;
+    font-weight: 800;
+    transform: rotate(-90deg);
+    background: transparent;
+    border: none;
+    /* transform: translateY(60); */
+    margin-top: 7rem;
+    
+}
+/* content4 ends  */
+/* content5  begins  */
+.content5{
+    background: #F8F8F8;
+    height: 80vh;
+    padding: 3rem;
+    text-align: center;
+}
+.content5 .title{
+    color: #043040;
+    font-weight: 800;
+}
+.content5 span{
+    color: #CDA274;
+    margin-right: 1rem;
+}
+.content5 .pot img{
+    height: 40vh;
+    
+}
+/* content5 ends  */
+/* content6 begins */
+.content6 {
+    background: #F8F8F8;
+}
+.content6 .man {
+    height: 70vh;
+    width: 30vw;
+}
+.content6 .may{
+    /* position: relative; */
+}
+.diva{
+    /* position: absolute; */
+    transform: translateY(-30%);
+}
+.content6 .dog{
+    /* transform: translateX(-70%); */
+    transform: translateY(-80%);
+}
+.content6 .boy{
+    background: transparent;
+    border: none;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    /* padding: 3rem; */
+    
+}
+/* content 6 ends  */
+/* footer begin  */
+.footer{
+    background: #151920;
+    color: white;
+}
+.footer3 {
+    text-align: center;
+    border-top: 1px solid #CDA274;
+
+}
+.footer3 .box{
+    padding: 2rem 0;
+}
+.footer3 .box a{
+    text-decoration: none;
+    color: #F8F8F8;
+    background: #CDA274;
+    padding: .5rem;
+    font-weight: 600;
+    /* margin-bottom: 1rem; */
+}
+.footer3 .box h5{
+    margin-top: 1rem;
+}
+/* dining page */
+.tobi{
+    background-image: url(/img/eg-superior-room.jpg);
+    height: 30vh;
+    padding-top: 4rem;
+}
+.tobi h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #F8F8F8;
+}
+
+
